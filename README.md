@@ -1,6 +1,9 @@
 # CyBroHttpServer-v1.0.3-Reflected-XSS
 Reflected XSS in CyBroHttpServer v1.0.3 impacts users who open a maliciously crafted link or third-party web page.
 
+# CVE-2018-16134
+https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16134
+
 # PoC
 To exploit vulnerability, someone could use 'http://[host]/<script>alert("selfxss");</script>' request to impact users who open a maliciously crafted link or third-party web page.
 
